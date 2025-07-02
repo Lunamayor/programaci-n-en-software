@@ -62,16 +62,21 @@
 # total1:(precio1+precio2+precio3) # type: ignore
 
 #-------------------------------------------------7 ejercicio------------------------------------------------------------
+nombre = []
 
+nom1 = input("Ingreseun nombe del usuario: ") 
+nom2 = input("Ingrese otro nombre de usuario: ") 
 
+nombre.append(nom1)
+nombre.append(nom2) 
 
-
+print(f"Hola {nombre[0]} y {nombre[1]} es un gusto poder conocerlos/conoerlas!")
 
 #------------------------------------------------8 ejercicio----------------------------------------------------------------
 temperaturas = []
 temperatura1= float(input("Ingrese la primera temperatura: "))
 temperaturas.append(temperatura1)
-temperatura2 = float(input("Ingrese la segunda temperatura: "))
+temperatura2 = float(input("Ingrese la segunda temperatura: "))#rrrrrrrrrrrr
 temperaturas.append(temperatura2)
 fahrenheit1 = (temperatura1 * 9/5) + 32
 fahrenheit2 = (temperatura2 * 9/5) + 32
