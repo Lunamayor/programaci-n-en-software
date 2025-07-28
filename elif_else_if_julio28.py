@@ -1,15 +1,4 @@
-#2. calcula el mayor de dos numeros ingresados
-n1=int(input("ingrese el  primer num: "))
-n2=int(input("ingrese el segundo numero: "))
-if n1>n2:
-    print(f"el mayor es {n1}")
-elif n2>n1:
-    print(f"el mayor es el {n2}")
-
-
-#-------------------------------------------TALLER 10 PREGUNTAS-----------------------------------------------
-
-
+# #-----------------------------TALLER, PRIMERA PARTE ES DE CONDICIONALES Y OPERACIONE MATEMÁTICAS-----------------------
 
 # 1. Verifica si un número es positivo, negativo o cero
 num = float(input("Ingresa un número: "))
@@ -92,3 +81,16 @@ if num % div1 == 0 and num % div2 == 0:
     print(f"{num} es divisible entre {div1} y {div2}")
 else:
     print(f"{num} no es divisible entre {div1} y {div2}")
+
+
+#-----------------------------TALLER, PRIMERA PARTE ES DE CONDICIONALES Y OPERACIONE MATEMÁTICAS-----------------------
+#11
+
+
+
+
+
+
+
+
+
