@@ -181,3 +181,29 @@ if persona["edad"] >= 18:
     print("Adulto")
 else:
     print("Menor de edad")
+
+# 22. Crea un diccionario { "nombre": "Lucia", "edad": 20}. Si la edad es mayor a 18, cambia el valor de "edad" a 21. Luego muestra el diccionario
+persona = {"nombre": "Lucia", "edad": 20}
+if persona["edad"] > 18:
+    persona["edad"] = 21
+print(persona)
+
+# 23. Crea un diccionario con { "nombre": "Carlos" }. Si la clave "ciudad" no existe, agrégala con el valor "Bogotá" y muestra el diccionario
+persona = {"nombre": "Carlos"}
+if "ciudad" not in persona:
+    persona["ciudad"] = "Bogotá"
+print(persona)
+
+# 24. Dado el diccionario { "producto": "pan", "precio": 1200}, verifica si la clave "precio" existe. Si existe, muestra su valor, si no, muestra "No hay precio"
+producto = {"producto": "pan", "precio": 1200}
+if "precio" in producto:
+    print(producto["precio"])
+else:
+    print("No hay precio")
+
+# 25. Crea un diccionario con { "pan": 1200, "leche": 2000}. Si "pan" está en el diccionario, muestra su precio; si no, muestra "Producto no disponible"
+productos = {"pan": 1200, "leche": 2000}
+if "pan" in productos:
+    print(productos["pan"])
+else:
+    print("Producto no disponible")
